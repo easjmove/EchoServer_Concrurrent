@@ -11,7 +11,7 @@ namespace EchoServer_Concrurrent
         {
             Console.WriteLine("Server:");
             TcpListener listener = new TcpListener(System.Net.IPAddress.Loopback, 7);
-            listener.Start();
+            listener.Start();//
 
             while (true)
             {
